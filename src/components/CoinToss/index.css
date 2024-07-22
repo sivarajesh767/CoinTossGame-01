@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.background-co {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coinTossGame-co {
+  width: 46%;
+  height: 76%;
+  background-color: #ffff;
+  margin-top: 34px;
+  border-radius: 16px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width:576px){
+ .coinTossGame-co  {
+  width: 45%;
+  height: 65%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.coinTossGame-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  font-size: 36px;
+  color: #a35200;
+  font-weight: 500;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+@media screen and (max-width:576px){
+ .coinTossGame-head  {
+   font-size:14px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #334155;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #334155;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.img {
+  height: 143px;
+  width: 174px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.button {
+  height: 42px;
+  width: 140px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'roboto';
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border: 1px solid;
+  background-color: #e2a139;
+  color: #a35200;
+}
+.countBtn-co {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.total-coins{
+  margin-left:12px;
+  margin-right:12px;
+  color:#334155;
+  font-weight:500;
+  font-family:"Roboto";
+  font-size:19px;
+}
+.heads{
+  margin-left:12px;
+  margin-right:12px;
+  color:#334155;
+  font-weight:500;
+  font-family:"Roboto";
+  font-size:19px;
+}
+.tails{
+  margin-left:12px;
+  margin-right:12px;
+  color:#334155;
+  font-weight:500;
+  font-family:"Roboto";
+  font-size:19px;
+}
